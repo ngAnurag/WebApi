@@ -121,7 +121,7 @@ namespace WEBApiCRUD.Controllers
             try
             {
                 using (QueriesEntities QE = new QueriesEntities())
-                {
+                { 
                     if (QE.Employees.FirstOrDefault(e => e.ID == ID) != null)
                     {
                         QE.Employees.Remove(QE.Employees.FirstOrDefault(e => e.ID == ID));
