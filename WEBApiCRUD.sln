@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEBApiCRUD", "WEBApiCRUD\WEBApiCRUD.csproj", "{222FB811-2B61-419A-8D22-6D3EED9403A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{CF42B9BA-6F67-49FC-B822-003F8FAAE2E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{222FB811-2B61-419A-8D22-6D3EED9403A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222FB811-2B61-419A-8D22-6D3EED9403A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222FB811-2B61-419A-8D22-6D3EED9403A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222FB811-2B61-419A-8D22-6D3EED9403A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF42B9BA-6F67-49FC-B822-003F8FAAE2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF42B9BA-6F67-49FC-B822-003F8FAAE2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF42B9BA-6F67-49FC-B822-003F8FAAE2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF42B9BA-6F67-49FC-B822-003F8FAAE2E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15DACB2A-6506-442E-83E0-688A93460A5B}
+	EndGlobalSection
+EndGlobal
